@@ -1,0 +1,62 @@
+Fault: 23-02-2022 14:20:40 - Ошибка подключения к базк данных: 1049 Unknown database 'im1'
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 20
+
+Fault: 23-02-2022 15:12:21 - Ошибка  в SQL запросе: SELECT FROM articles - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM articles' at line 1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 15:12:25 - Ошибка  в SQL запросе: SELECT FROM articles - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM articles' at line 1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 15:13:46 - Ошибка  в SQL запросе: SELECT FROM articles - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM articles' at line 1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 15:16:22 - Ошибка  в SQL запросе: SELECT * FROM articles1 - 1146 Table 'im.articles1' doesn't exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 15:18:00 - Ошибка  в SQL запросе: SELECT name1 FROM articles - 1054 Unknown column 'name1' in 'field list'
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 20:42:08 - Ошибка  в SQL запросе: SELECT product.id, product.name FROM product
+                    LEFT JOIN category ON product.product_id = category.id
+                    WHERE category.id = 1 - 1146 Table 'im.product' doesn't exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 23-02-2022 21:09:09 - Ошибка  в SQL запросе: SELECT teachers.id, teachers.name, students.id as s_id, students.name as s_name
+                    FROM teachers
+                    LEFT JOIN stud_teach ON teachers.id = stud_teach.teachers
+                    LEFT JOIN students ON stud_teach.students = students.id
+                     - 1146 Table 'im.stud_teach' doesn't exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 02-03-2022 10:01:27 - Ошибка  в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN ('masha','olya','sveta') OR teachers.surname LIKE 'Sergeevna%' AND teachers.fio<>'Andrey' AND teachers.car='Lada' AND teachers.color NOT IN ('red','blue','black')  ORDER BY teachers.fio DESC,teachers.name DESC  - 2006 MySQL server has gone away
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 33
+
+Fault: 03-03-2022 10:42:09 - Ошибка  в SQL запросе: SELECT teachers.olga,teachers.hello FROM teachers     - 1054 Unknown column 'teachers.olga' in 'field list'
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 43
+
+Fault: 03-03-2022 10:45:53 - Ошибка  в SQL запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUE ('Olga','hello','[\"red.jpg\",\"blue.jpg\",\"green.jpg\"]','main_img.jpg') - 1364 Field 'id' doesn't have a default value
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 43
+
+Fault: 03-03-2022 10:54:06 - Ошибка  в SQL запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUE ('Olga','hello','[\"red.jpg\",\"blue.jpg\",\"green.jpg\"]','main_img.jpg') - 1062 Duplicate entry '1' for key 'teachers.PRIMARY'
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 43
+
+Fault: 03-03-2022 10:57:53 - Ошибка  в SQL запросе: INSERT INTO teachers (name,content,gallery_img,img) VALUE ('Olga','hello','[\"red.jpg\",\"blue.jpg\",\"green.jpg\"]','main_img.jpg') - 1364 Field 'id' doesn't have a default value
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 43
+
+Fault: 03-03-2022 11:03:36 - Ошибка  в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUE ('hello','[\"red.jpg\",\"blue.jpg\",\"green.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\models\BaseModel.php
+In line 43
+

@@ -1,0 +1,34 @@
+
+
+Fault: 23-02-2022 12:06:21 - Неверное имя файла для поключения - core/user/controllers/IndexController1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 23-02-2022 12:09:30 - Неверное имя файла для поключения - core/user/controllers/IndexController1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 23-02-2022 12:10:19 - Неверное имя файла для поключения - core/user/controllers/IndexController1
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 23-02-2022 12:19:31 - Class core\admin\controllers\IndexController does not exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\controllers\BaseController.php
+In line 44
+
+Fault: 03-03-2022 10:34:05 - Class core\user\controllers\Favicon.icoController does not exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\controllers\BaseController.php
+In line 44
+
+Fault: 08-03-2022 10:07:20 - Class core\user\controllers\Favicon.icoController does not exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\controllers\BaseController.php
+In line 44
+
+Fault: 08-03-2022 10:18:47 - Class core\user\controllers\Favicon.icoController does not exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\controllers\BaseController.php
+In line 44
+
+Fault: 08-03-2022 10:18:59 - Class core\user\controllers\Favicon.icoController does not exist
+fileC:\web\OpenServer\domains\im.my\public_html\core\base\controllers\BaseController.php
+In line 44
+
